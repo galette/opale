@@ -1,0 +1,50 @@
+// Custom variables for Galette bugtracker : https://bugs.galette.eu/
+
+// stylelint-disable value-keyword-case
+
+$ptsans-font-family: PtSans, Arial, sans-serif;
+$galette-blue: #708fab;
+$galette-orange: #ef9f06;
+$galette-gray: #636b70;
+
+@use 'variables' with (
+  $blue: $galette-blue,
+  $orange: $galette-orange,
+  $brand-primary: $galette-orange,
+  $link-color: $galette-blue,
+  $font-family-sans-serif: $ptsans-font-family,
+  $top-menu-bg: $galette-orange,
+  $header-bg: $galette-gray
+);
+
+@font-face {
+  font-family: PtSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../webfonts/ptsans-regular-webfont.woff2") format("woff2"),
+    url("../webfonts/ptsans-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: PtSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../webfonts/ptsans-bold-webfont.woff2") format("woff2"),
+    url("../webfonts/ptsans-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: PtSans;
+  font-style: italic;
+  font-weight: bold;
+  src: url("../webfonts/ptsans-bolditalic-webfont.woff2") format("woff2"),
+    url("../webfonts/ptsans-bolditalic-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: PtSans;
+  font-style: italic;
+  font-weight: normal;
+  src: url("../webfonts/ptsans-italic-webfont.woff2") format("woff2"),
+    url("../webfonts/ptsans-italic-webfont.woff") format("woff");
+}

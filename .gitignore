@@ -2,6 +2,4 @@
 /.sublime-grunt.cache
 /.stylelintcache
 /node_modules
-/src/sass/_custom-variables.scss
 /images/logo
-/favicon
